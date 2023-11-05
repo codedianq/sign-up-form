@@ -21,9 +21,9 @@
 
         <!-- form section -->
         <form action="" method="post" class="sign-up-form">
-            <h2>Let's do this!</h2>
-
+            
             <div class="inputs">
+                <h2>Let's do this!</h2>
                 <div class="reg-form">
                     <label for="fist-name">FIRST NAME</label>
                     <input type="text" id="fist-name" name="name" placeholder="Coded" required>
@@ -46,14 +46,16 @@
 
                 <div class="reg-form">
                     <label for="user-pwd">PASSWORD</label>
-                    <input type="password" id="user-pwd" name="user-pwd" min="8" max="40" placeholder="Minimum of 8 characters and maximum of 40 characters">
+                    <input type="password" id="user-pwd" name="user-pwd" min="8" max="40" placeholder="Minimum of 8 characters and maximum of 40 characters" required>
                 </div>
     
                 <div class="reg-form">
                     <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="text" id="confirm-pwd" name="confirm-pwd" min="8" max="40" placeholder="Minimum of 8 characters and maximum of 40 characters">
+                    <input type="text" id="confirm-pwd" name="confirm-pwd" min="8" max="40" placeholder="Minimum of 8 characters and maximum of 40 characters" required>
                 </div>
             </div>
+            <button type="submit">Create Account</button>
+            <p class="sign-in">Already have an account? <a href="">Log in</a></p>
         </form>
     </div>
 </body>
